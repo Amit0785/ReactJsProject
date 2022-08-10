@@ -1,10 +1,10 @@
-const initialState=0
+const initialState=5
 
 const Calculator=(state=initialState,action)=>{
 
-    switch(action,type){
+    switch(action.type){
         case 'MULTIPY': return state*action.mul
-        case 'DIVIDE': return state/5
+        case 'DIVIDE': return state/2
         default: return state;
     }
 }

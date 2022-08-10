@@ -1,12 +1,12 @@
 const initialState=0
 
-const changeNumber=(state=initialState,action)=>{
+const UpDown=(state=initialState,action)=>{
 
-    switch(action,type){
-        case 'INCREMENT': return state+action.newNumb
-        case 'DECREMENT': return state-1
+    switch(action.type){
+        case 'INCREMENT': return state=state+action.newNumb
+        case 'DECREMENT': return state=state-1
         default: return state;
     }
 }
 
-export default changeNumber
+export default UpDown
