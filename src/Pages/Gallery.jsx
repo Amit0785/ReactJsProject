@@ -4,13 +4,11 @@ import {galleryData} from '../Components/Constant'
 function Gallery() {
 
   return (
-    <div  style={{display:'flex',flexWrap:'wrap'}}>
+    <div  style={{display:'flex',flexWrap:'wrap',alignItems:'center',paddingLeft:35}}>
 
     {galleryData.map((item,index)=>{
       return(
-        <div className="bg-light py-5 border-bottom"  key={index}>
-           
-             
+        <div className="bg-light py-5 border-bottom"  key={index}>             
                 
                   <img src={item.image} alt="" style={{height:250,width:250}}/>
                 
@@ -23,10 +21,6 @@ function Gallery() {
                     <h6>
                     {item.price}
                     </h6>
-                   
-                
-               
-          
            
           </div>
 

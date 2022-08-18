@@ -22,9 +22,12 @@ const validateEmail = value => {
     return alert('Please enter your Valid name') 
   }else if (!validateEmail(email)) {
   return alert('Please enter your Valid Email address')
-} else if (phone.trim() == '') {
+} else if (phone.trim() == '' ) {
     return alert('Please enter your Valid Phone number')
-}else{
+}else if (phone.length < 10) {
+    return alert('Please enter your Valid Phone number length')
+}
+else{
     alert('Form submission successful!')
 }
 

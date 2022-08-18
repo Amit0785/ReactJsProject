@@ -10,8 +10,8 @@ function AboutUs() {
 
       <div class="row">
         <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="" style={{height:400,width:400,alignSelf:'center'}}/>
+          <div style={{height:400,width:400,padding:20}}>
+            <img src="images/about-img.png" alt="" style={{height:250,width:250,alignSelf:'center'}}/>
           </div>
         </div>
         <div class="col-md-6">
