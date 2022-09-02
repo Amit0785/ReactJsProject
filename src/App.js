@@ -7,13 +7,15 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 
+
 // import Cart from './Components/Cart';
 // import Todos from './Components/Todos';
 
 function App() {
   
   return (
-  <div style={{flex:1,height:"100vh"}}>
+    <>
+      <div style={{flex:1,height:"100vh"}}>
 
       {/* <Cart/>
       <br/>
@@ -23,7 +25,13 @@ function App() {
    <Navbar/>
    <StackNavigation/>
    <Footer/>
-     </div>
+
+
+     </div> 
+     
+
+    </>
+
   );
 }
 
